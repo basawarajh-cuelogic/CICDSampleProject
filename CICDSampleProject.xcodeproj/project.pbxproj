@@ -16,6 +16,7 @@
 		65EA58F91EADFC640026A3DE /* CICDSampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EA58F81EADFC640026A3DE /* CICDSampleProjectTests.m */; };
 		65EA59041EADFC640026A3DE /* CICDSampleProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EA59031EADFC640026A3DE /* CICDSampleProjectUITests.m */; };
 		65EA59121EADFF600026A3DE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65EA58EF1EADFC640026A3DE /* Info.plist */; };
+		65EA591A1EAE2D5D0026A3DE /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EA59191EAE2D5D0026A3DE /* Validator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		65EA58FF1EADFC640026A3DE /* CICDSampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDSampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EA59031EADFC640026A3DE /* CICDSampleProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CICDSampleProjectUITests.m; sourceTree = "<group>"; };
 		65EA59051EADFC640026A3DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65EA59181EAE2D5D0026A3DE /* Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
+		65EA59191EAE2D5D0026A3DE /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,7 @@
 		65EA58DD1EADFC630026A3DE /* CICDSampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				65EA59171EAE2D5D0026A3DE /* Validator */,
 				65EA58E11EADFC630026A3DE /* AppDelegate.h */,
 				65EA58E21EADFC630026A3DE /* AppDelegate.m */,
 				65EA58E41EADFC630026A3DE /* ViewController.h */,
@@ -139,6 +143,15 @@
 				65EA59051EADFC640026A3DE /* Info.plist */,
 			);
 			path = CICDSampleProjectUITests;
+			sourceTree = "<group>";
+		};
+		65EA59171EAE2D5D0026A3DE /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				65EA59181EAE2D5D0026A3DE /* Validator.h */,
+				65EA59191EAE2D5D0026A3DE /* Validator.m */,
+			);
+			path = Validator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EA591A1EAE2D5D0026A3DE /* Validator.m in Sources */,
 				65EA58E61EADFC630026A3DE /* ViewController.m in Sources */,
 				65EA58E31EADFC630026A3DE /* AppDelegate.m in Sources */,
 				65EA58E01EADFC630026A3DE /* main.m in Sources */,
