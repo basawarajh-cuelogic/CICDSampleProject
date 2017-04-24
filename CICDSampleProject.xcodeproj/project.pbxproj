@@ -509,7 +509,7 @@
 				65EA59071EADFC640026A3DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		65EA59081EADFC640026A3DE /* Build configuration list for PBXNativeTarget "CICDSampleProject" */ = {
 			isa = XCConfigurationList;
@@ -518,7 +518,7 @@
 				65EA590A1EADFC640026A3DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		65EA590B1EADFC640026A3DE /* Build configuration list for PBXNativeTarget "CICDSampleProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -527,7 +527,7 @@
 				65EA590D1EADFC640026A3DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		65EA590E1EADFC640026A3DE /* Build configuration list for PBXNativeTarget "CICDSampleProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,7 +536,7 @@
 				65EA59101EADFC640026A3DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
